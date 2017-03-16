@@ -1,6 +1,6 @@
 {
     "name": "fusic/encount-sender-faultline",
-    "description": "faultline sender for encount",
+    "description": "Encount sender for faultline",
     "type": "library",
     "require": {
         "fusic/encount": "~2.0",
