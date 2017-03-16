@@ -1,6 +1,6 @@
 <?php
 
-namespace EncountSenderFaultline\Sender;
+namespace Encount\Sender;
 
 use Encount\Sender\SenderInterface;
 use Encount\Collector\EncountCollector;
