@@ -1,0 +1,21 @@
+{
+    "name": "fusic/encount-sender-faultline",
+    "description": "faultline sender for encount",
+    "type": "library",
+    "require": {
+        "fusic/encount": "~2.0",
+        "k1low/faultline": "~0.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "k1LoW",
+            "email": "k1lowxb@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EncountSenderFaultline\\": "src"
+        }
+    }
+}
