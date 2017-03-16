@@ -8,7 +8,7 @@
 
 ## Usage
 
-[Set Faultline\Instance::set($notifier)](https://github.com/k1LoW/faultline-php#usage) add `EncountSenderFaultline\Sender\Faultline` to `Error.encount.sender`
+[Set Faultline\Instance::set($notifier)](https://github.com/k1LoW/faultline-php#usage) add `Encount\Sender\Faultline` to `Error.encount.sender`
 
 ```php
 // config/app.php
@@ -25,7 +25,7 @@ return [
         # Encount config
         'encount' => [
             'force' => false,
-            'sender' => ['EncountSenderFaultline\Sender\Faultline'],
+            'sender' => ['Encount\Sender\Faultline'],
         ],
     ],
 
