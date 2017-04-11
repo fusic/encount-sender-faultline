@@ -26,7 +26,7 @@ class Faultline implements SenderInterface
         if (!empty($params['params']['action'])) {
             $notice['context']['action'] = $params['params']['action'];
         }
-        $notice['context']['url'] = $collector->url;
+        $notice['context']['url'] = $collector->url ? $collector->url : "";
 
         return Instance::sendNotice($notice);
     }
